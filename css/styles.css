@@ -80,3 +80,15 @@ body{
   grid-template-columns: repeat(3,1fr);
  }
 }
+/* Block */
+.block{
+ padding: 3rem;
+}
+.makeup-image{
+width: 100%;
+}
+.card{
+ border-radius: 7px;
+ box-shadow: 0 0 20px 10px #f3f3f3;
+ overflow: hidden;
+}
