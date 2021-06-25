@@ -225,3 +225,75 @@ blockquote {
     font-size: 2.4rem;
   }
 }
+/* Footer */
+footer {
+  display: block;
+}
+.footer {
+  background: black;
+  padding-top: 10rem;
+}
+.block--dark {
+  color: #7b858b;
+  background: #000;
+  padding-top: 3rem;
+}
+.containers {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.footer__section {
+  padding: 2rem;
+  border-bottom: 1px solid #393939;
+}
+.block--dark h1,
+.block--dark h2,
+.block--dark h3 {
+  color: #fff;
+}
+.footer__heading {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.footer__section .list {
+  margin: 0;
+}
+.list {
+  list-style: none;
+  padding-left: 0;
+}
+.footer__brand {
+  margin-top: 2rem;
+  text-align: center;
+}
+.footer__copyright {
+  font-size: 2.1rem;
+  color: #fff;
+  opacity: 0.3;
+}
+a {
+  color: wheat;
+  text-decoration: none;
+}
+a:hover {
+  color: grey;
+}
+@media screen and (min-width: 768px) {
+  .footer__section {
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  }
+  .footer__brand {
+    margin-top: 1rem;
+  }
+  .footer__copyright {
+    font-size: 1.5rem;
+  }
+  .footer__section {
+    border: 0;
+  }
+  .footer__heading {
+    font-size: 1.6rem;
+  }
+}
