@@ -1,118 +1,119 @@
-html{
- font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
-h1{
- font-size: 5rem;
+h1 {
+  font-size: 5rem;
 }
-h2{
- font-size: 4rem;
+h2 {
+  font-size: 4rem;
 }
-h3{
+h3 {
   font-size: 3rem;
   margin-bottom: 2rem;
 }
 
-h1,h2,h3{
- margin-bottom: 1rem;
+h1,
+h2,
+h3 {
+  margin-bottom: 1rem;
 }
-p{
- margin-top: 0;
+p {
+  margin-top: 0;
 }
-:root{
- --color-primary:#fae1e1;
- --color-secondary:#f595ea;
- --color-accent: #ff3400;
- --color-headings: #1b0760;
- --color-body:#918ca4;
-
+:root {
+  --color-primary: #fae1e1;
+  --color-secondary: #f595ea;
+  --color-accent: #ff3400;
+  --color-headings: #1b0760;
+  --color-body: #918ca4;
 }
-body{
- font-family: Inter,Arial, Helvetica, sans-serif;
- color: var(--color-body);
- font-size: 2.4rem;
- line-height: 1.5;
-}
-
-@media screen and (min-width:1024px) {
- body{
-  font-size: 1.8rem;
- }
- h1{
-  font-size: 8rem;
- }
- h2{
-  font-size: 4rem;
- }
- h3{
+body {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  color: var(--color-body);
   font-size: 2.4rem;
- }
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 1.8rem;
+  }
+  h1 {
+    font-size: 8rem;
+  }
+  h2 {
+    font-size: 4rem;
+  }
+  h3 {
+    font-size: 2.4rem;
+  }
 }
 /* Buttons */
-.btn{
- font-size: 1.8rem;
- font-weight: 600;
- text-transform: uppercase;
- padding: 2rem 3rem;
- border: 0;
- border-radius: 40px;
- cursor: pointer;
- white-space: nowrap;
+.btn {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 2rem 3rem;
+  border: 0;
+  border-radius: 40px;
+  cursor: pointer;
+  white-space: nowrap;
 }
-.btn--primary{
- background: var(--color-secondary);
- color: white;
+.btn--primary {
+  background: var(--color-secondary);
+  color: white;
 }
-.btn--primary:hover{
- background: grey;
+.btn--primary:hover {
+  background: grey;
 }
 
 /* Grids */
-.grid{
- display: grid;
+.grid {
+  display: grid;
 }
-@media screen and (min-width:768px) {
- .grid--1x2{
-  grid-template-columns: repeat(2,1fr);
- }
+@media screen and (min-width: 768px) {
+  .grid--1x2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
-@media screen and (min-width:1024) {
- .grid--1x3{
-  grid-template-columns: repeat(3,1fr);
- }
+@media screen and (min-width: 1024) {
+  .grid--1x3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 /* Block */
-.block{
- padding: 3rem;
+.block {
+  padding: 3rem;
 }
-.makeup-image{
-width: 100%;
+.makeup-image {
+  width: 100%;
 }
-.card{
- border-radius: 7px;
- box-shadow: 0 0 20px 10px #f3f3f3;
- overflow: hidden;
-}
-
-.grey_bg{
- background: #f8f8f8;
+.card {
+  border-radius: 7px;
+  box-shadow: 0 0 20px 10px #f3f3f3;
+  overflow: hidden;
 }
 
-section{
- float: left;
- width: 100%;
- clear: both;
+.grey_bg {
+  background: #f8f8f8;
 }
-img{
- max-width: 100%;
- vertical-align: bottom;
- border: 0;
- border-radius: 5rem;
+
+section {
+  float: left;
+  width: 100%;
+  clear: both;
 }
-img{
- height: auto;
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+  border: 0;
+  border-radius: 5rem;
 }
-.text_center{
- text-align: center;
+img {
+  height: auto;
+}
+.text_center {
+  text-align: center;
 }
 /* p{
  display: block;
@@ -123,35 +124,49 @@ img{
  margin-inline-end: 0px;
  font-weight: bold;
 } */
-@media only screen and (min-width: 768px){
-.content_section_inner {
+@media only screen and (min-width: 768px) {
+  .content_section_inner {
     max-width: 1076px;
     width: 1076px;
     margin: 75px auto;
     min-height: 415px;
     position: relative;
-   }
-   .grid--1x2{
-    grid-template-columns: repeat(2,1fr);
-   }
+  }
+  .grid--1x2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.pics {
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 100%;
+}
+.header__service {
+  text-align: center;
+}
+.container {
+  background: lightgrey;
+  box-shadow: linen;
 }
 
-@media  screen and (min-width: 768px){
-    .home_about_sec .content_col_left {
+@media screen and (min-width: 768px) {
+  .home_about_sec .content_col_left {
     display: block;
-    }
-    .grid--1x2{
-     grid-template-columns: repeat(2,1fr);
-    }
-
+  }
+  .grid--1x2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid--1x3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
-@media only screen and (min-width: 768px){
-#home_about_sec .content_white_bg {
+@media only screen and (min-width: 768px) {
+  #home_about_sec .content_white_bg {
     background: #fff;
     padding: 40px;
-    }
-    .grid--1x2{
-     grid-template-columns: repeat(2,1fr);
-    }
+  }
+  .grid--1x2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
