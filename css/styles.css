@@ -147,7 +147,7 @@ img {
 }
 .container {
   background: lightgrey;
-  box-shadow: 0 0 30px 20px #e6ebee;
+  /* box-shadow: 0 0 30px 20px #e6ebee; */
 }
 .card__testimonial {
   box-shadow: 0 0 30px 20px #e6ebee;
@@ -325,6 +325,7 @@ a {
   transform: translateY(5px);
   color: #000;
   margin-top: 0.5rem;
+  text-transform: uppercase;
 }
 .btn__body {
   border-radius: 3rem;
@@ -337,6 +338,19 @@ a {
 .btn__color:hover {
   background: palevioletred;
   color: white;
+}
+.footer__list {
+  color: white;
+}
+.text_heading {
+  color: var(--color-headings);
+  font-style: normal;
+  margin-top: 0.25rem;
+  margin-bottom: 0.2rem;
+}
+.paragraph__header {
+  transform: translateX(3rem);
+  font-style: normal;
 }
 @media screen and (min-width: 768px) {
   .nav__list {
