@@ -115,6 +115,9 @@ img {
 .text_center {
   text-align: center;
 }
+.content_col_left {
+  margin: auto;
+}
 /* p{
  display: block;
  font-size: 0.67em;
@@ -160,6 +163,9 @@ img {
   font-style: italic;
   color: #5c5577;
 }
+.quote__text {
+  font-style: normal;
+}
 blockquote {
   display: block;
   margin-block-start: 1em;
@@ -196,7 +202,7 @@ blockquote {
   color: var(--color-headings);
   opacity: 0.4;
   font-size: 1.5rem;
-  font-style: normal;
+  font-style: italic;
 }
 @media screen and (min-width: 768px) {
   .home_about_sec .content_col_left {
@@ -219,7 +225,7 @@ blockquote {
     grid-template-columns: repeat(2, 1fr);
   }
   .testimonial__image {
-    margin: 0;
+    margin: auto;
   }
   .quote__author {
     font-size: 2.4rem;
