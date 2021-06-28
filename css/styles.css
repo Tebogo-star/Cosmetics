@@ -297,3 +297,56 @@ a:hover {
     font-size: 1.6rem;
   }
 }
+
+/* Navigation Bar */
+.nav {
+  background: #f2dfd8;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1rem;
+  align-items: center;
+}
+a {
+  color: black;
+}
+.nav__list {
+  width: auto;
+  display: flex;
+  font-size: 1.6rem;
+  max-height: 100%;
+  opacity: 1;
+}
+.nav__item {
+  border: 0;
+  padding: 0.5rem 2rem;
+}
+.nav__brand {
+  transform: translateY(5px);
+  color: #000;
+  margin-top: 0.5rem;
+}
+.btn__body {
+  border-radius: 3rem;
+  background: #f2dfd8;
+}
+.btn__color {
+  color: #ff7878;
+  border: 2px solid #ff7878;
+}
+.btn__color:hover {
+  background: palevioletred;
+  color: white;
+}
+@media screen and (min-width: 768px) {
+  .nav__list {
+    width: auto;
+    display: flex;
+    font-size: 1.6rem;
+    max-height: 100%;
+    opacity: 1;
+  }
+  .nav__item {
+    border: 0;
+  }
+}
