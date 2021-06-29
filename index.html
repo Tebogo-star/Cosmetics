@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Embrace your beauty with the best makeup."
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,7 +17,7 @@
     />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Document</title>
+    <title>Thabie's Makeup Hub</title>
   </head>
   <body>
     <header>
@@ -26,7 +31,7 @@
         </ul>
       </nav>
     </header>
-    <div class="container">
+    <div class="container" data-aos="zoom-in" data-aos-duration="2000">
       <div class="card block">
         <div class="grid grid--1x2">
           <blockquote class="quote">
@@ -52,20 +57,46 @@
       <div class="services">
         <h3 class="header__service">PORTFOLIO</h3>
         <div class="pics grid grid--1x3">
-          <img src="images/pic11x.jpg" alt="" />
-          <img src="images/pic21x.jpg" alt="" />
-          <img src="images/pic31x.jpg" alt="" />
+          <img
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            src="images/pic11x.jpg"
+            alt=""
+          />
+          <img
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+            src="images/pic21x.jpg"
+            alt=""
+          />
+          <img
+            data-aos="fade-left"
+            data-aos-duration="2000"
+            src="images/pic31x.jpg"
+            alt=""
+          />
         </div>
       </div>
     </section>
     <section id="home_about_sec" class="content_section grey_bg">
       <div class="content_section_inner grid grid--1x2">
         <div class="content_col_left columns">
-          <img src="images/thabisile2x.jpg" alt="" />
+          <img
+            data-aos="fade-down-right"
+            data-aos-duration="2000"
+            src="images/thab3x.jpg"
+            alt=""
+          />
         </div>
         <div class="content_col_right columns">
-          <h2 class="text_center">MEET THABIE</h2>
-          <div class="content_white_bg text_center">
+          <h2 data-aos="zoom-in" data-aos-duration="2000" class="text_center">
+            MEET THABIE
+          </h2>
+          <div
+            data-aos="flip-left"
+            data-aos-duration="2000"
+            class="content_white_bg text_center"
+          >
             <p>
               I am the brand behind Thabie's beauty hub. My trademark is soft,
               artistic and organic. I work hard to create the perfect
@@ -84,7 +115,7 @@
       </div>
     </section>
     <section class="block">
-      <header class="block__header">
+      <header data-aos="zoom-out" class="block__header">
         <h2>Customer Experience</h2>
         <p>Good customer service is our number one priority.</p>
       </header>
@@ -92,10 +123,19 @@
         <div class="card__testimonial">
           <div class="grid grid--1x2">
             <div class="testimonial__image">
-              <img src="images/custooomer1x.jpg" alt="" />
+              <img
+                data-aos="zoom-in-right"
+                data-aos-duration="2000"
+                src="images/custooomer1x.jpg"
+                alt=""
+              />
             </div>
             <blockquote class="quote">
-              <p class="quote__text">
+              <p
+                data-aos="zoom-in-left"
+                data-aos-duration="2000"
+                class="quote__text"
+              >
                 There are many makeup artists out there but Thabie is by far the
                 best makeup artist I have encountered. She made me to be more
                 beautiful than I could ever imagined. You are my best service
@@ -103,7 +143,11 @@
                 you Thabie, you are the BEST.
               </p>
               <footer>
-                <div class="media__body">
+                <div
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                  class="media__body"
+                >
                   <h3 class="media__title quote__author">Bucie</h3>
                   <p class="quote__organisation">Loyal Customer</p>
                 </div>
@@ -114,7 +158,11 @@
       </div>
     </section>
     <section>
-      <footer class="block block--dark footer">
+      <footer
+        data-aos="fade-down"
+        data-aos-duration="2000"
+        class="block block--dark footer"
+      >
         <div class="containers footer__sections grid grid--1x3">
           <section class="collapsible collapsible--expanded footer__section">
             <div class="collapsible__header">
@@ -158,5 +206,9 @@
       </footer>
     </section>
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
